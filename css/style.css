@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #d0f0f9;
+  color: #532f1e;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf5a6;
+  height: 100px;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #532f1e;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.pesquisa {
+  height: 35px;
+  width: 410px;
+  border: 2px #532f1e solid;
+  background-color: #fdf5a6;
+  border-radius: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 70px;
+}
+
+span {
+  margin-left: 40px;
+}
+
+.welcome {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.category {
+  text-align: center;
+  background-color: #fdf5a6;
+  border-radius: 5px;
+  padding: 10px;
+  width: 160px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.category img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.category button {
+  border: 2px #532f1e solid;
+  width: 120px;
+  background-color: #fdf5a6;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.offers {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.offer-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.offer-cards div:hover {
+  transform: scale(1.1);
+  transition: 0.5s; 
+}
+
+.categories div:hover{
+  transform: scale(1.1);
+  transition: 0.5s; 
+}
+
+.card, .bermuda, .blusinha, .calca {
+  position: relative;
+  width: 340px;
+  height: 250px;
+  background-color: #fdf5a6;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.card img, .bermuda img, .blusinha img, .calca img {
+  width: 180px;
+  height: 210px;
+  border-radius: 5px;
+}
+
+.card span, .bermuda span, .blusinha span, .calca span {
+  position: absolute;
+  top: 40%;
+  left: 170px;
+  transform: translateY(-50%);
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  color: #532f1e;
+  max-width: 50%;
+  word-wrap: break-word;
+}
+
+.lorem{
+  height: 440px;
+  width: 700px;
+  margin-left: 43px;
+}
+
+.formulario{
+  height: 480px;
+  width:540px;
+  background-color: #fdf5a6;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+
+.final{
+  display: flex;
+  align-items: first baseline;
+  justify-content: center;
+}
+
+.formulario input{
+  display: flex;
+  height: 50px;
+  width: 500px;
+  margin-left: 20px;
+  border: 2px #532f1e solid;
+  background-color: #fdf5a6;
+  border-radius: 5px;
+}
+
+.formulario h2{
+  margin-left: 214px;
+  display: flex;
+}
+
+.formulario button{
+  width: 240px;
+height: 50px;
+border: 3px #532f1e solid;
+border-radius: 5px;
+background-color: #fdf5a6;
+margin-left: 160px;
+font-weight: bold;
+cursor: pointer;;
+}
+
+.rodape{
+  width: 1550px;
+  height: 90px;
+  background-color: #fdf5a6;
+  justify-content: center;
+}
+
+.rodape img{
+  width: 78px;
+  height: auto;
+  margin-left: 755px;
+}
+
+.acabando{
+  display: flex;
+  justify-content: center;
+}
+
